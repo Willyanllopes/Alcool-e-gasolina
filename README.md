@@ -1,9 +1,9 @@
-# alcool_gasolina
+# Alcool_gasolina
 
 First app made in flutter
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+This app is a starting point, created in a Hybrid development class.
 
 
