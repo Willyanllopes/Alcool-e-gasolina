@@ -53,7 +53,7 @@ class _HomeState extends State<Home> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text(
+        title: const Text(
           "Álcool ou Gasolina ? ",
           style: TextStyle(color: Colors.white),
         ),
@@ -120,7 +120,7 @@ class _HomeState extends State<Home> {
                   height: 50.0,
 
                   //Botão
-                  child: RaisedButton(
+                  child: ElevatedButton(
                     onPressed: () {
                       if (_formKey.currentState!.validate())
                       _calculaCombustivelIdeal();
@@ -128,9 +128,9 @@ class _HomeState extends State<Home> {
                     //Estilização do Botão
                     child: Text(
                       "Verificar",
-                      style: TextStyle(color: Colors.white, fontSize: 25.0),
+                      style: const TextStyle(color: Colors.white, fontSize: 25.0),
                     ),
-                    color: Colors.lightBlue,
+                    // color: Colors.lightBlue,
                   ),
                 ),
               ),
